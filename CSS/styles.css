@@ -1,4 +1,14 @@
 h1 {
-  color: purple;
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans";
   font-size: 1.5em;
+}
+
+a {
+  color: #002ca7;
+  font-size: large;
+}
+
+.bg-color {
+  background-color: rgb(255, 255, 255);
 }
