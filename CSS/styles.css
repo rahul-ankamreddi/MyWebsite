@@ -1,14 +1,28 @@
-h1 {
-  color: rgb(0, 0, 0);
-  font-family: "Lucida Sans";
-  font-size: 1.5em;
+* {
+  margin: 0;
+}
+.nav-bar {
+  background-color: rgba(104, 16, 16, 0.993);
+  /* margin-bottom: 20px; */
+  padding: 20px;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-left: 3em solid rgb(122, 26, 26);
+  word-spacing: 20px;
 }
 
 a {
-  color: #002ca7;
-  font-size: large;
+  text-decoration: none;
+  color: rgb(221, 187, 187);
+  text-transform: uppercase;
 }
 
-.bg-color {
-  background-color: rgb(255, 255, 255);
+.background-image {
+  background: url("./dualipa.png");
+  /* height: 50vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(100vh - 58px);
 }
